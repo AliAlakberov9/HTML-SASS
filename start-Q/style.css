@@ -10,8 +10,55 @@ a:hover {
   color: black;
 }
 
-#demo .minibox {
-  border: 2px solid #0c0b0b;
-  width: 80px;
-  height: 80px;
+#demo .box {
+  position: relative;
+}
+#demo .box .minibox {
+  border: 2px solid #5e82b8;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  margin: 100px 85px;
+  background-color: #5e82b8;
+}
+#demo .box .box1, #demo .box .box2, #demo .box .box3 {
+  width: 130px;
+  height: 130px;
+  padding: 40px 40px;
+  font-size: 35px;
+  position: absolute;
+  background-color: #4766a0;
+  color: white;
+}
+#demo .box .box1 {
+  top: 55px;
+  left: 55px;
+}
+#demo .box .box2 {
+  top: 55px;
+  left: 475px;
+}
+#demo .box .box3 {
+  top: 55px;
+  right: 85px;
+}
+#demo .box .box4 {
+  width: 250px;
+  height: 120px;
+  font-size: 30px;
+  padding: 10px 5px 0 85px;
+  margin: 55px 220px 50px 150px;
+  color: white;
+  background-color: #81617f;
+  border: 2px solid #81617f;
+}
+#demo .box .box5 {
+  width: 250px;
+  height: 120px;
+  font-size: 30px;
+  padding: 10px 5px 0 85px;
+  margin: 55px 0 50px 220px;
+  color: white;
+  background-color: #81617f;
+  border: 2px solid #81617f;
 }/*# sourceMappingURL=style.css.map */
